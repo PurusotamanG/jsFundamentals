@@ -2,7 +2,7 @@ function gfn() {
     console.log("Global Func", this.x)
 }
 
-var vfunc = function vfn() {
+vfunc = function() {
     console.log("Var Func", this.x)
 }
 
